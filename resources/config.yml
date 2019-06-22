@@ -2,8 +2,8 @@
 version: 1.0
 
 #COMMAND
-command: "rename"
-command_description: "Change item names"
-usage: "§cUsage: /rename <newname>"
-command_aliases: []
+command: "改名"
+command_description: "改变物品名称"
+usage: "§用法: /rename <新名字>"
+command_aliases: ["rename"]
 ...

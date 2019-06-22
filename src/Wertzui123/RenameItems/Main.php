@@ -30,7 +30,7 @@ public function ConfigUpdater($version){
 	    if(file_exists($cfgpath)){
 	        $cfgversion = $this->Config()->get("version");
 	        if($cfgversion !== $version){
-	            $this->getLogger()->info("Your config has been renamed to config-".$cfgversion.".yml and your messages file has been renamed to messages-".$cfgversion.".yml. That's because your config version wasn't the latest avable. So we created a new config and a new messages file for you!");
+	            $this->getLogger()->info("配置文件从 ".$cfgversion." 更新到 ".$version." 原配置文件改名为 config-".$cfgversion.".yml 原消息文件改名为 messages-".$cfgversion.".yml.");
 	            rename($cfgpath, $this->getDataFolder()."config-".$cfgversion.".yml");
                 rename($msgpath, $this->getDataFolder()."messages-".$cfgversion.".yml");
                 $this->saveResource("config.yml");

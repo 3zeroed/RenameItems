@@ -1,6 +1,6 @@
 ---
-run_ingame: "§cYou must run this command ingame!"
-no_permission: "§cYou're not allowed to use /rename!"
-hold_item: "§cPlease hold an item in your hand!"
-succes: "§aYou changed the items name to §e{name}!"
+run_ingame: "§c请在游戏中使用这个命令!"
+no_permission: "§c你没有使用此命令的权限!"
+hold_item: "§c请手持物品!"
+succes: "§a成功将物品重命名为 §e{name}!"
 ...
