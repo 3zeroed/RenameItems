@@ -4,6 +4,8 @@
 <br>A PocketMine-MP plugin to rename the item in your hand via command.
 The .phar can be found <a href="https://poggit.pmmp.io/ci/Wertzui123/RenameItems/RenameItems/">on poggit</a>.
 
+中文版介绍请访问：[MineBBS](https://www.minebbs.com/resources/renameitems.652/)
+
 # Permissions
 renameitems:
  <br>default: op
